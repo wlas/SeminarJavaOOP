@@ -1,7 +1,8 @@
+package data;
+
 public abstract class User {
-    
-    private String name;
-    
+
+    protected String name;
 
     public String getName() {
         return name;
@@ -9,6 +10,6 @@ public abstract class User {
 
     public void setName(String name) {
         this.name = name;
-    }   
+    }
 
 }
