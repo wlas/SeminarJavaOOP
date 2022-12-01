@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Stream implements Iterable {
 
-    private ArrayList<StudyGroup> studentGroups = new ArrayList<>();
+    public ArrayList<StudyGroup> studentGroups = new ArrayList<>();
 
     public Stream(ArrayList<StudyGroup> groups) {
         this.studentGroups = groups;
