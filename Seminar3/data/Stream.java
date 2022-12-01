@@ -26,4 +26,17 @@ public class Stream implements Iterable {
         return sBuilder.toString();
     }
 
+    public static String arrayTostring(Stream[] array) {
+
+        StringBuilder text = new StringBuilder();
+        text.append("Stream is [");
+        int i = 0;
+        for (Stream stream : array) {
+            text.append(i++ + " " + stream.toString() + " ");
+        }
+
+        text.append("].");
+        return text.toString();
+
+    }
 }
