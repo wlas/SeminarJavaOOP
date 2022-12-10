@@ -4,16 +4,20 @@ import java.util.Date;
 import java.util.UUID;
 
 public class TaskScheduler {
-    private final UUID taskID;
-    private final UUID authorID;
-    private final String taskContent;
+    private String taskID;
+    private String authorID;
+    private String taskContent;
     private Date dateAdd;
     private Date dateOfCompletion;
     private Date deadlain;
     private Priority priority;
     private Status status;
 
-    public TaskScheduler(UUID taskID, UUID authorID, String taskContent,
+    public TaskScheduler() {
+
+    }
+
+    public TaskScheduler(String taskID, String authorID, String taskContent,
             Date dateAdd, Date deadline, Date dateOfCompletion,
             Priority priority, Status status) {
         this.taskID = taskID;
@@ -28,15 +32,15 @@ public class TaskScheduler {
     }
 
     public TaskScheduler(UUID authorID, String taskContent, Date deadline, Priority priority) {
-        this(UUID.randomUUID(), authorID, taskContent, new Date(),
+        this(UUID.randomUUID().toString(), authorID.toString(), taskContent, new Date(),
                 deadline, null, priority, Status.AWAIT);
     }
 
-    public UUID getTaskID() {
+    public String getTaskID() {
         return taskID;
     }
 
-    public UUID getAuthorID() {
+    public String getAuthorID() {
         return authorID;
     }
 
@@ -84,4 +88,15 @@ public class TaskScheduler {
         this.status = status;
     }
 
+    public void setTaskID(String taskID) {
+        this.taskID = taskID;
+    }
+
+    public void setAuthorID(String authorID) {
+        this.authorID = authorID;
+    }
+
+    public void setTaskContent(String taskContent) {
+        this.taskContent = taskContent;
+    }
 }
