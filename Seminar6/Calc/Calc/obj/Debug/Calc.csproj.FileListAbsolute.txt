@@ -1,0 +1,8 @@
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\obj\Debug\Calc.csproj.SuggestedBindingRedirects.cache
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\bin\Debug\Calc.exe.config
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\bin\Debug\Calc.exe
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\bin\Debug\Calc.pdb
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\obj\Debug\Calc.exe
+E:\YandexDisk-a.wlas-off\GB\Java\SeminarJavaOOP\Seminar6\Calc\Calc\obj\Debug\Calc.pdb
